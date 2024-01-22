@@ -5,7 +5,7 @@ const Card = ({ quote }) => {
         <div className="card">
             <h1> {quote.author} </h1>
             <em>{quote.quote}</em>
-            <p>{quote.series.replace(/_/g, ' ')}</p>
+            <h3>{quote.series.replace(/_/, " ")}</h3>
         </div>
     );
 };
